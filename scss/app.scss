@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+$body-bg : #fff;
+$font-family-sans-serif: 'Rubik', sans-serif;
+$navbar-nav-link-padding-x : 1.5rem;
+$navbar-padding-y : 1.5rem;
+$nav-link-color : #000;
+// $nav-link-font-weight : bold;
+$btn-padding-x : 2rem;
+
+$primary : hsl(231, 69%, 60%);
+$danger : hsl(0, 94%, 66%);
+$card-border-color : transparent;
+$card-border-radius : 1.2rem;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+
+
+.min-vh-70 {
+    min-height: 70vh;
+}
+
+.features-tab {
+    nav-link {
+        padding: 1rem 2.5rem;
+    }
+}
+
+.features-tab {
+    .nav {
+        button {
+            margin-top: 10px;
+        }
+    }
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.z-in {
+    z-index: 10000;
+}
+
+.spacing {
+    letter-spacing: 6px;
+}
+
+.bg-footer {
+
+    background-color: hsl(229, 31%, 21%);
+}
+
+@media screen and (max-width: 576px) {
+    .btn{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .mb-100{
+        margin-bottom: 30px;
+    }
+
+}
+
